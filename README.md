@@ -1,7 +1,7 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
   <a
-href="https://zainportfolio.vercel.app/" target="_blank">Zain.Portflio</a>
+href="https://owaisrafiq05.vercel.app/" target="_blank">OwaisRafiq.Portfolio</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -21,14 +21,14 @@ href="https://zainportfolio.vercel.app/" target="_blank">Zain.Portflio</a>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/RuberDucky/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/owaisrafiq05/React-Portfolio-Website/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/RuberDucky/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/owaisrafiq05/React-Portfolio-Website/issues">Request Feature</a>
 </h3>
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [RuberDucky](https://github.com/RuberDucky/Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [owaisrafiq05](https://github.com/owaisrafiq05). Thanks!
 
 ## Built With
 
