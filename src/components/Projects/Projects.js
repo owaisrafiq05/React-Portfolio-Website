@@ -8,7 +8,6 @@ import textCraft from "../../Assets/Projects/textCraft.png";
 import devDay from "../../Assets/Projects/devDay.png";
 import newsApp from "../../Assets/Projects/newsApp.png";
 import blogApp from "../../Assets/Projects/blogApp.png";
-import fitsRight from "../../Assets/Projects/fitsRight.png";
 
 
 function Projects() {
@@ -40,7 +39,7 @@ function Projects() {
               imgPath={redstore} // replace with the path to your Passporttastic app image
               isBlog={false}
               title="Red Store Ecommerce Website"
-              description="Passporttastic is a unique mobile application that allows users to create digital passports. After a successful sign-up with authentic information, users can select the country they wish to travel to and create a corresponding digital passport. The app offers features such as viewing the passport profile, purchasing passport stamps for travel, and adding pages to the passport. Users can also customize their passport with stamps for the countries they plan to travel to. The primary purpose of Passporttastic is to facilitate the creation and management of digital passports."
+              description="The Red Store Ecommerce Web Application is a meticulously crafted frontend project designed to provide a seamless shopping experience. It features multiple pages, including Home, Product Section, Cart, and Login/Sign-Up pages. Built using HTML, CSS, JavaScript, and various CSS frameworks, the application boasts a modern and responsive design. The Home page highlights featured products and promotions, the Product Section offers detailed views of items, the Cart page facilitates easy checkout, and the Login/Sign-Up page ensures secure user authentication. This project showcases my expertise in frontend development, emphasizing user experience and design quality."
             ghLink="https://github.com/owaisrafiq05/RedStore-Ecommerce-Web" // replace with the link to your GitHub repository
             webLink="https://redstoresecommerce.netlify.app/" // replace with the link to your demo if available
             />
@@ -51,7 +50,7 @@ function Projects() {
               imgPath={devDay} // replace with the path to your Yulo app image
               isBlog={false}
               title="ACM Dev Day Website"
-              description="Yulo is a clone of TikTok that I contributed to. I worked on solving a number of issues and added new features, making them well-optimized. The main problem I solved was an issue with video uploads not working properly. This issue has been resolved and the app is now functioning correctly. The app will soon be uploaded to the Google Play Store and the App Store."
+              description="I contributed to the official ACM Dev Day Website, FAST NUCES's flagship event, by designing the frontend using React JS, Tailwind CSS, and Uiverse.io. As part of the web development team, I created key components including the footer, registration page, about page, and parts of the home page. This dynamic project, which spanned a month, was sponsored by multinational companies like Systems Limited, Folio3, E Ocean, and various other IT industries, highlighting its significance and scale. My work ensured a seamless, responsive user experience, showcasing my frontend development skills in a high-stakes environment."
                ghLink="https://github.com/hatifmujahid/Dev-Day-2024-website" // replace with the link to your GitHub repository
               webLink="https://www.acmdevday.com/" // replace with the link to your app on the Play Store when available
             // appStoreLink="https://apps.apple.com/app/idYourAppId" // replace with the link to your app on the App Store when available
@@ -62,7 +61,7 @@ function Projects() {
               imgPath={textCraft} // replace with the path to your Deliver Client app image
               isBlog={false}
               title="Text Craft Pro - Text Editor"
-              description="Deliver Client is an app that allows users to book rides for the delivery of parcels and couriers. I made significant contributions to this app, including adding new features and solving issues. The app allows users to book a ride, and the available delivery partner can accept the delivery offer and start the ride. Once the parcel is delivered, users can leave reviews and use many other features."
+              description="TextCraft Pro is a versatile text editor application designed to empower users with a wide array of powerful and user-friendly features. Whether you're a writer, student, or professional, TextCraft Pro is your go-to tool for refining and optimizing your textual content effortlessly. I developed this dynamic application using React JS and core CSS, leveraging React's core hooks for a seamless user experience. TextCraft Pro offers multiple text editing features, including converting text to uppercase or lowercase, reversing text, copying to clipboard, removing extra spaces, and generating voice aloud through built-in AI. This project demonstrates my proficiency in frontend development and dynamic application design."
               ghLink="https://github.com/owaisrafiq05/TextCraft-Pro" 
               webLink="https://textcraft-pro.netlify.app/" 
             />
@@ -73,7 +72,7 @@ function Projects() {
               imgPath={newsApp} 
               isBlog={false}
               title="React News App using Free News API"
-              description="Deliver Partner is the companion app to Deliver Client. It allows delivery partners to accept delivery offers and start rides. I also made significant contributions to this app, including adding new features and solving issues. Once the delivery partner has delivered the parcel, they can mark the delivery as completed."
+              description="React-News-App is a dynamic news reading application I developed using React and a Free News API. Leveraging React Hooks such as useState, useEffect, and useNavigate, I created a seamless user experience with efficient state management and navigation. By handling React Routing, the application avoids reloads, ensuring a smoother experience. I meticulously categorized news into separate sections like Technology, Science, and Politics, and transformed JSON data into visually appealing news cards. This project highlights my skills in React, API integration, and creating user-friendly, dynamic web applications."
               ghLink="https://github.com/owaisrafiq05/React-News-App"
             />
           </Col>
@@ -82,7 +81,7 @@ function Projects() {
               imgPath={blogApp} 
               isBlog={false}
               title="Blog Application using Firebase DB"
-              description="Vazra is a clone of WhatsApp that I contributed to. I worked on implementing Firebase Notifications, push notifications for calls and messages, and user blocking functionality. I also worked on reporting messages and overall performance optimization."
+              description="During my internship at Syslab.ai, I developed a dynamic full-stack application named 'Blog Application.' This project was built using HTML, CSS, JavaScript, and Firebase as the database. The application supports complete CRUD operations for blogs, with each blog having its own dedicated page accessible via URL parameters. Additionally, it features login and signup functionality, integrating Google Authentication and a private authentication system for other emails through Firebase Database. This project is one of my most successful real-time applications, showcasing my ability to design and implement a comprehensive, user-friendly blogging platform independently."
               ghLink=" https://github.com/owaisrafiq05/Syslab-Blogs" 
             />
           </Col>
