@@ -1,7 +1,7 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
   <a
-href="https://owaisrafiq05.vercel.app/" target="_blank">OwaisRafiq.Portfolio</a>
+href="https://owaisrafiq05.vercel.app/" target="_blank">Owais Rafiq Portfolio</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
