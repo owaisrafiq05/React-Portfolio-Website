@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import syslab from "../../Assets/Projects/syslab.png";
+// import syslab from "../../Assets/Projects/syslab.png";
 import redstore from "../../Assets/Projects/redstore.png";
 import textCraft from "../../Assets/Projects/textCraft.png";
 import devDay from "../../Assets/Projects/devDay.png";
@@ -22,17 +22,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={syslab}
-              isBlog={false}
-              title="Syslab.ai Main Website"
-              description="During my internship at Syslab.ai, I designed and developed their main website using HTML, CSS, JavaScript, and CSS animation libraries. The site features a modern, responsive design that ensures optimal viewing on all devices. I implemented interactive elements and engaging animations to create a dynamic user experience. The website is optimized for fast load times and smooth performance, maintaining visual consistency with Syslab.ai’s branding. This project showcases my ability to merge creative design with technical expertise, delivering a frontend that enhances Syslab.ai's online presence."
-              // ghLink=""
-              // demoLink="https://chatify-49.web.app/"
-              webLink="https://owaisrafiqsyslab.netlify.app/"
-            />
-          </Col>
+          // <Col md={4} className="project-card">
+          //   <ProjectCard
+          //     imgPath={syslab}
+          //     isBlog={false}
+          //     title="Syslab.ai Main Website"
+          //     description="During my internship at Syslab.ai, I designed and developed their main website using HTML, CSS, JavaScript, and CSS animation libraries. The site features a modern, responsive design that ensures optimal viewing on all devices. I implemented interactive elements and engaging animations to create a dynamic user experience. The website is optimized for fast load times and smooth performance, maintaining visual consistency with Syslab.ai’s branding. This project showcases my ability to merge creative design with technical expertise, delivering a frontend that enhances Syslab.ai's online presence."
+          //     // ghLink=""
+          //     // demoLink="https://chatify-49.web.app/"
+          //     webLink="https://owaisrafiqsyslab.netlify.app/"
+          //   />
+          // </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -81,7 +81,7 @@ function Projects() {
               imgPath={blogApp} 
               isBlog={false}
               title="Blog Application using Firebase DB"
-              description="During my internship at Syslab.ai, I developed a dynamic full-stack application named 'Blog Application.' This project was built using HTML, CSS, JavaScript, and Firebase as the database. The application supports complete CRUD operations for blogs, with each blog having its own dedicated page accessible via URL parameters. Additionally, it features login and signup functionality, integrating Google Authentication and a private authentication system for other emails through Firebase Database. This project is one of my most successful real-time applications, showcasing my ability to design and implement a comprehensive, user-friendly blogging platform independently."
+              description="During my learning journey, I developed a dynamic full-stack application named 'Blog Application.' This project was built using HTML, CSS, JavaScript, and Firebase as the database. The application supports complete CRUD operations for blogs, with each blog having its own dedicated page accessible via URL parameters. Additionally, it features login and signup functionality, integrating Google Authentication and a private authentication system for other emails through Firebase Database. This project is one of my most successful real-time applications, showcasing my ability to design and implement a comprehensive, user-friendly blogging platform independently."
               ghLink=" https://github.com/owaisrafiq05/Syslab-Blogs" 
             />
           </Col>
