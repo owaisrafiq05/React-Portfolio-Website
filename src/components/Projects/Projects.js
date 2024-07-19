@@ -7,6 +7,8 @@ import textCraft from "../../Assets/Projects/textCraft.png";
 import devDay from "../../Assets/Projects/devDay.png";
 import newsApp from "../../Assets/Projects/newsApp.png";
 import blogApp from "../../Assets/Projects/blogApp.png";
+import taskForges from "../../Assets/Projects/taskforges.png";
+import socialMedia from "../../Assets/Projects/socialMedia.png";
 
 function Projects() {
   return (
@@ -22,12 +24,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={redstore}
+              imgPath={taskForges}
               isBlog={false}
-              title="Red Store Ecommerce Website"
-              description="The Red Store Ecommerce Web Application is a meticulously crafted frontend project designed to provide a seamless shopping experience. It features multiple pages, including Home, Product Section, Cart, and Login/Sign-Up pages. Built using HTML, CSS, JavaScript, and various CSS frameworks, the application boasts a modern and responsive design. The Home page highlights featured products and promotions, the Product Section offers detailed views of items, the Cart page facilitates easy checkout, and the Login/Sign-Up page ensures secure user authentication. This project showcases my expertise in frontend development, emphasizing user experience and design quality."
-              ghLink="https://github.com/owaisrafiq05/RedStore-Ecommerce-Web"
-              webLink="https://redstoresecommerce.netlify.app/"
+              title="TaskForges MERN Web Application"
+              description="Introducing TaskForges - a sophisticated Task Management System developed using the MERN stack. It features robust CRUD operations for seamless task management and OTP-based authentication via Node Mailer for enhanced security. The React-powered frontend offers an intuitive user interface, while the Node.js and Express backend ensures reliable performance. MongoDB provides scalable and flexible data storage. TaskForges showcases the full potential of the MERN stack in creating comprehensive and secure web applications."
+              ghLink="https://github.com/owaisrafiq05/TaskForge-MERN-App"
+              webLink="https://taskforges.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={socialMedia}
+              isBlog={false}
+              title="Content Management Social Media MERN Web App"
+              description="Introducing our Content Management Social Media Web App, developed using the MERN stack. It features two portals: one for Content Creators to manage posts, images, and videos via Multer and Cloudinary, and another for Users to subscribe to creators and access exclusive content. Strict authentication with JSON Web Tokens in cookies ensures security, while the robust database handles post management efficiently. This project showcases the power of the MERN stack in building a secure, scalable, and user-friendly social media platform."
+              ghLink="https://github.com/owaisrafiq05/Social-Media-Backend"
+              webLink="https://github.com/owaisrafiq05/social-media-MERN-App-Frontend"
             />
           </Col>
 
@@ -39,6 +52,17 @@ function Projects() {
               description="I contributed to the official ACM Dev Day Website, FAST NUCES's flagship event, by designing the frontend using React JS, Tailwind CSS, and Uiverse.io. As part of the web development team, I created key components including the footer, registration page, about page, and parts of the home page. This dynamic project, which spanned a month, was sponsored by multinational companies like Systems Limited, Folio3, E Ocean, and various other IT industries, highlighting its significance and scale. My work ensured a seamless, responsive user experience, showcasing my frontend development skills in a high-stakes environment."
               ghLink="https://github.com/hatifmujahid/Dev-Day-2024-website"
               webLink="https://www.acmdevday.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={redstore}
+              isBlog={false}
+              title="Red Store Ecommerce Website"
+              description="The Red Store Ecommerce Web Application is a meticulously crafted frontend project designed to provide a seamless shopping experience. It features multiple pages, including Home, Product Section, Cart, and Login/Sign-Up pages. Built using HTML, CSS, JavaScript, and various CSS frameworks, the application boasts a modern and responsive design. The Home page highlights featured products and promotions, the Product Section offers detailed views of items, the Cart page facilitates easy checkout, and the Login/Sign-Up page ensures secure user authentication. This project showcases my expertise in frontend development, emphasizing user experience and design quality."
+              ghLink="https://github.com/owaisrafiq05/RedStore-Ecommerce-Web"
+              webLink="https://redstoresecommerce.netlify.app/"
             />
           </Col>
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Button } from "react-bootstrap";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Owais-CV.pdf";
+import pdf from "../../Assets/../Assets/Owais_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
